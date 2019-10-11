@@ -13,10 +13,13 @@
 @end
 
 @implementation ViewController
-
+@synthesize calcAreaLabel, calcAreaNumber;
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self setCalcAreaNumber:@"0.0"];
+    
+    [self printCalcAreaLabel];
+    
 }
 
 

@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		030309B3234FBC4200C69F3B /* testapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		030309B3234FBC4200C69F3B /* calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		030309B6234FBC4200C69F3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		030309B7234FBC4200C69F3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		030309B9234FBC4200C69F3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		030309AA234FBC4200C69F3B = {
 			isa = PBXGroup;
 			children = (
-				030309B5234FBC4200C69F3B /* testapp */,
+				030309B5234FBC4200C69F3B /* calculator */,
 				030309B4234FBC4200C69F3B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,33 +50,57 @@
 		030309B4234FBC4200C69F3B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				030309B3234FBC4200C69F3B /* testapp.app */,
+				030309B3234FBC4200C69F3B /* calculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		030309B5234FBC4200C69F3B /* testapp */ = {
+		030309B5234FBC4200C69F3B /* calculator */ = {
 			isa = PBXGroup;
 			children = (
-				030309B6234FBC4200C69F3B /* AppDelegate.h */,
-				030309B7234FBC4200C69F3B /* AppDelegate.m */,
-				030309B9234FBC4200C69F3B /* ViewController.h */,
-				030309BA234FBC4200C69F3B /* ViewController.m */,
-				030309BC234FBC4200C69F3B /* Main.storyboard */,
+				0369D747235135A30069DEDC /* StoryBoards */,
+				0369D748235135BA0069DEDC /* ViewControllers */,
 				030309BF234FBC4300C69F3B /* Assets.xcassets */,
-				030309C1234FBC4300C69F3B /* LaunchScreen.storyboard */,
 				030309C4234FBC4300C69F3B /* Info.plist */,
 				030309C5234FBC4300C69F3B /* main.m */,
 			);
-			path = testapp;
+			path = calculator;
+			sourceTree = "<group>";
+		};
+		0369D747235135A30069DEDC /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				030309C1234FBC4300C69F3B /* LaunchScreen.storyboard */,
+				030309BC234FBC4200C69F3B /* Main.storyboard */,
+				0369D749235135D20069DEDC /* Special Classes */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		0369D748235135BA0069DEDC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				030309BA234FBC4200C69F3B /* ViewController.m */,
+				030309B9234FBC4200C69F3B /* ViewController.h */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0369D749235135D20069DEDC /* Special Classes */ = {
+			isa = PBXGroup;
+			children = (
+				030309B7234FBC4200C69F3B /* AppDelegate.m */,
+				030309B6234FBC4200C69F3B /* AppDelegate.h */,
+			);
+			path = "Special Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		030309B2234FBC4200C69F3B /* testapp */ = {
+		030309B2234FBC4200C69F3B /* calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 030309C9234FBC4300C69F3B /* Build configuration list for PBXNativeTarget "testapp" */;
+			buildConfigurationList = 030309C9234FBC4300C69F3B /* Build configuration list for PBXNativeTarget "calculator" */;
 			buildPhases = (
 				030309AF234FBC4200C69F3B /* Sources */,
 				030309B0234FBC4200C69F3B /* Frameworks */,
@@ -86,9 +110,9 @@
 			);
 			dependencies = (
 			);
-			name = testapp;
+			name = calculator;
 			productName = testapp;
-			productReference = 030309B3234FBC4200C69F3B /* testapp.app */;
+			productReference = 030309B3234FBC4200C69F3B /* calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +129,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 030309AE234FBC4200C69F3B /* Build configuration list for PBXProject "testapp" */;
+			buildConfigurationList = 030309AE234FBC4200C69F3B /* Build configuration list for PBXProject "calculator" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +142,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				030309B2234FBC4200C69F3B /* testapp */,
+				030309B2234FBC4200C69F3B /* calculator */,
 			);
 		};
 /* End PBXProject section */
@@ -316,7 +340,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		030309AE234FBC4200C69F3B /* Build configuration list for PBXProject "testapp" */ = {
+		030309AE234FBC4200C69F3B /* Build configuration list for PBXProject "calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				030309C7234FBC4300C69F3B /* Debug */,
@@ -325,7 +349,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		030309C9234FBC4300C69F3B /* Build configuration list for PBXNativeTarget "testapp" */ = {
+		030309C9234FBC4300C69F3B /* Build configuration list for PBXNativeTarget "calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				030309CA234FBC4300C69F3B /* Debug */,
